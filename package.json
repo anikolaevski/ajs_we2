@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anikolaevski/ajs_we2.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Alexey Nikolaevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anikolaevski/ajs_we2/issues"
+  },
+  "homepage": "https://github.com/anikolaevski/ajs_we2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.0.1"
+  }
+}
